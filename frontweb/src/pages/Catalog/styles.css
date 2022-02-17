@@ -1,0 +1,23 @@
+/* .general-container{    
+    padding: 30px 40px;
+} */
+
+.product-search{ 
+    margin: 30px 20px 30px 20px;
+    padding: 42px 20px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    background-color: #ededed;
+    height: 123px;
+}
+
+.search-container{
+    display: flex;
+}
+
+.search-container input{
+    border-radius: 5px 0px 0px 5px;
+    width: 100%;
+    border: 0;
+    font-size: 14px;
+}
+

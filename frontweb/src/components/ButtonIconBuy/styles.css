@@ -1,16 +1,17 @@
-.btn-container {
+.btn-buy-container {
   display: flex;  
 }
 
-.btn{
+.btn-buy{
   background-color: #00285F;
+  width: 220px;
 }
 
-.btn-container button {
-  border-radius: 10px 10px 10px 10px;
+.btn-buy-container button {
+  border-radius: 5px 5px 5px 5px;
 }
 
-.btn h6 {
+.btn-buy h6 {
   color: #fff;
   font-size: 14px;
   text-transform: uppercase;

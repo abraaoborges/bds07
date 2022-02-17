@@ -1,10 +1,10 @@
 import './styles.css';
 
-const ButtonIcon = () => {
+const ButtonIconBuy = () => {
   return (
-    <div className="btn-container">
-      <button className="btn">
-        <h6>VER CATÁlOGO</h6>
+    <div className="btn-buy-container">
+      <button className="btn btn-buy">
+        <h6>COMPRAR</h6>
       </button>
     </div>
   );
@@ -21,4 +21,4 @@ const ButtonIcon = () => {
 // };
 
 
-export default ButtonIcon;
+export default ButtonIconBuy;

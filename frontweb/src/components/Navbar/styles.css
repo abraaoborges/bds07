@@ -1,28 +1,30 @@
 .main-nav{
-    padding-left: 40px;
     min-height: 70px;
+    background-color: #F78B00;
 }
 
 .nav-logo-text, .nav-logo-text:hover{
-    color: #FFF;
+    color:  #00285F;
 }
 
 .main-menu{
+    padding-right: 0px;
     display: flex;
     font-size: 18px;
-    width: 380px;
-    justify-content: space-between;
+    width: 380px;    
+    justify-content: flex-end;
+    column-gap: 10px;
 }
 
 .main-menu a {
-    color: rgba(255, 255, 255, 0.5);
+    color: #00285F;
 }
 
 .main-menu a:hover {
-    color: #FFF;
+    color:  #00285F;
 }
 
-.main-menu a.active {
-    color: #FFF;
+.main-menu a.active {   
+    color:  #00285F;
     font-weight: bold;
 }

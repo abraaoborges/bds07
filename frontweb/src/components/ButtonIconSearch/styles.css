@@ -1,0 +1,25 @@
+.btn-search-container {
+  display: flex;  
+}
+
+.btn-search{
+  background-color: #00285F;
+  width: 77px;
+}
+
+.btn-search-container button {
+  border-radius: 0px 5px 5px 0px;
+}
+
+.btn-search h6 {
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin: 0px 0px;
+}
+
+@media (min-width: 576px) {
+  .btn-search {
+    width: 174px;
+  }
+}
